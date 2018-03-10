@@ -6,4 +6,12 @@ Listar configuraciones actuales: git config --global --list
 
 1.- git init - iniciar el repositorio en un directorio en particular
 2.- git status - incida el estado de los archivos que se encuentran dentro del directorio
- 
+3.- git add - Con este comando decidimos que archivos están listos para el siguiente paso
+4.- git commit -m "Mensaje" - Guardamos los cambios con un mensaje para identificarlos
+5.- git log - Nos da una lista de todos nuestros commits con su respectiva información
+6.- git checkout - Con este comando viajamos a través de nuestros commits o nuestras ramas 
+7.- git reset - Es similar a checkout a diferencia que este elimina los commits
+	git reset --soft - El git reset más simple y que no toca nuestro "Working Area" (No se mete con nuestro código)
+	git reset --mixed - Este git reset borra el "Staging Area", sin tocar el "Working Area" (no se usa mucho)
+	git reset --hard - Este git reset borra absolutamente todo lo que hay en el commit 
+8.- git help - Este comando nos ayuda a saber como funciona git o alguno de sus comandos
