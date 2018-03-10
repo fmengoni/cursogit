@@ -34,5 +34,7 @@ Pasos:
 	2.- git merge tedis
 
 Dos tipos de "Fusiones" (Merges)
-Fast-Forward: Simple y automático
-Manual Merge: Largo y manual
+Fast-Forward: Simple y automático. Solo va a hacer la fusión, esto pasa normalmente cuando se trabaja con archivos deferentes o lineas de código distintas
+Manual Merge: Largo y manual. Antes de hacer la fusión tiene que pasar por nosotros, normalmente ocurre cuando se trabaja en los mismos archivos o líneas de códigos.
+
+Prueba branch colores: azul
