@@ -32,3 +32,7 @@ Fusiones: Es la creación de un nuevo commit juntando una rama con otra
 Pasos:
 	1.- Pararnos sobre la rama destino (ej. git checkout master)
 	2.- git merge tedis
+
+Dos tipos de "Fusiones" (Merges)
+Fast-Forward: Simple y automático
+Manual Merge: Largo y manual
