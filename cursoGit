@@ -23,4 +23,12 @@ Ramas: Es una linea de tiempo en nuestro proyecto, que nos sirven para arreglar 
 	Master: La rama master es en donde comanzamos a trabajar, es la rama principal y estable de nuestro proyecto
 
 Para crear una nueva rama ejecutamos lo siguiente:
-git branch Tedis
+git branch tedis
+
+Para borrar una rama ejecutamos lo siguiente:
+git branch -d tedis
+
+Fusiones: Es la creación de un nuevo commit juntando una rama con otra
+Pasos:
+	1.- Pararnos sobre la rama destino (ej. git checkout master)
+	2.- git merge tedis
