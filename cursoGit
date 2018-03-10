@@ -10,8 +10,17 @@ Listar configuraciones actuales: git config --global --list
 4.- git commit -m "Mensaje" - Guardamos los cambios con un mensaje para identificarlos
 5.- git log - Nos da una lista de todos nuestros commits con su respectiva información
 6.- git checkout - Con este comando viajamos a través de nuestros commits o nuestras ramas 
-7.- git reset - Es similar a checkout a diferencia que este elimina los commits
+7.- git reset - Es similar a checkout a diferencia que este elimina los commits (para realizar el reset es necesario saber el id del commit con git log)
 	git reset --soft - El git reset más simple y que no toca nuestro "Working Area" (No se mete con nuestro código)
 	git reset --mixed - Este git reset borra el "Staging Area", sin tocar el "Working Area" (no se usa mucho)
 	git reset --hard - Este git reset borra absolutamente todo lo que hay en el commit 
-8.- git help - Este comando nos ayuda a saber como funciona git o alguno de sus comandos
+8.- git help - Este comando nos ayuda a saber como funciona git o alguno de sus comandos.
+
+
+Conceptos:
+Head: es en el commit donde nos encontramos
+Ramas: Es una linea de tiempo en nuestro proyecto, que nos sirven para arreglar errores, experimentar, hacer grandes cambios, etc
+	Master: La rama master es en donde comanzamos a trabajar, es la rama principal y estable de nuestro proyecto
+
+Para crear una nueva rama ejecutamos lo siguiente:
+git branch Tedis
