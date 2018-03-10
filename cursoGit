@@ -37,4 +37,7 @@ Dos tipos de "Fusiones" (Merges)
 Fast-Forward: Simple y automático. Solo va a hacer la fusión, esto pasa normalmente cuando se trabaja con archivos deferentes o lineas de código distintas
 Manual Merge: Largo y manual. Antes de hacer la fusión tiene que pasar por nosotros, normalmente ocurre cuando se trabaja en los mismos archivos o líneas de códigos.
 
-Prueba branch colores: azul
+Prueba branch colores: amarillo
+
+Para cambiar a una rama que no existe podemos usar el siguiente comando
+git checkout -b text (Este comando crea el branch "text" y se para sobre ese nuevo branch)
