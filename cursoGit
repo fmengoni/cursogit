@@ -1,0 +1,9 @@
+GIt
+Configurar usuario: git config --global user.name "Federico Mengoni"
+Configurar email: git config --global user.email "federico.mengoni@gmail.com"
+Configurar colores: git config --global color.ui true
+Listar configuraciones actuales: git config --global --list	
+
+1.- git init - iniciar el repositorio en un directorio en particular
+2.- git status - incida el estado de los archivos que se encuentran dentro del directorio
+ 
