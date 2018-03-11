@@ -46,3 +46,17 @@ FUNCIONES:
 git clone: nos sirve para clonar un proyecto, normalmente, se usa cuando no nos interesa colaborar en el proyecto
 
 git remote: vincula nuestro proyecto local, con nuestro proyecto remoto
+	git remote add origin <ruta del repositorio remoto>
+	git remote -v 
+	git remote remove origin (eliminamos lo que acabamos de hacer)
+git push: manda nuestros cambios (commits locales) a github.
+	git push origin master
+
+ISSUES
+Los issues son una forma para continuar, mejorar o solucionar un error en nuestros repositorios (proyectos)
+
+MILESTONES
+Son grupos de issues que aplican para un proyecto, característica o periodo de tiempo
+
+LABELS
+Son una manera de organizar diferentes tipos de problemas
