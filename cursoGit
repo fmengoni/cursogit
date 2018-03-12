@@ -81,3 +81,32 @@ Para traer un commit que está en el repositorio remoto, usamos el branch oculto
 Pasos:
 1.- git fetch origin (traemos el commit al branch "origin/master")
 2.- git merge origin/master (traemos lo que está en el branch origin/master a nuestro master local)
+
+Si no sincronizamos nuestro proyecto con github, no vamos a poder hacer ningún push.
+
+Proyectos con terceros: Nosotros no somos dueños ni colaboradores, pero queremos participar en el proyecto. Para esto aparece la función "fork", esta función nos hace un clon del proyecto original y nos crea un proyecto en nuestro repositorio. No confundir con la función "clone". Para sincronizar este tipo de proyectos hay que usar dos ramas ocultas y realizar los fetch de cada repositorio. Nosotros no vamos a trabajar con este tipo de repositorios, por lo tanto no vamos a profundizar en este tema. 
+
+El desarrollador que utiliza fork y resuelve un problema del proyecto original, puede solicitar que se actualicen el código usando la funcionalidad "pull request" desde gitlab. De esta forma el proyecto original se entera que puede haber una solución a algún problema. 
+
+.gitignore
+# Compiled source #
+*.class
+*.dll
+
+# Packages #
+*.7z
+*.gz
+
+# Logs and databases #
+*.log
+*.sql
+
+# OS generated files #
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+-- Hasta acá hacer la presentación --
+
+Github Pages: gh-pages - podemos generar un sitio web a partir de nuestra organizacion o proyecto, muy útil para portafolios, blogs y todo tipo de páginas del lado del front-end (totalmente gratis).
