@@ -60,3 +60,24 @@ Son grupos de issues que aplican para un proyecto, característica o periodo de 
 
 LABELS
 Son una manera de organizar diferentes tipos de problemas
+
+WORKFLOW
+Son flujos de trabajo
+	Proyectos propios
+		Somos los dueños, decidimos todo lo que pasa en el repositorio
+	Proyectos en equipo
+		Es parecido a trabajar solo, con la exceptión de que habrá commits de nuestro equipo
+
+FUNCIONES RELACIONADAS AL WORKFLOW
+git fetch
+git merge
+
+Cuando nosotros conectamos el repositorio local con el repositorio remoto, hay una rama oculta y prácticamente es un espejo entre estos dos (idéntico a master).
+Para ver estas ramas ocultas podemos usar la siguiente función:
+git branch -a
+origin/master
+
+Para traer un commit que está en el repositorio remoto, usamos el branch oculto.
+Pasos:
+1.- git fetch origin (traemos el commit al branch "origin/master")
+2.- git merge origin/master (traemos lo que está en el branch origin/master a nuestro master local)
